@@ -1,0 +1,68 @@
+body {
+    background-color: #000000;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* СТРАНИЦА */
+.page {
+    background-color: #242223;
+    width: 940px;
+    padding: 10px;
+    margin: auto;
+}
+
+.content {
+    color: white;
+    margin: 0 10px;
+    line-height: 22px;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+::selection {
+    background-color: #00FC17;
+    color: #000000;
+}
+
+/* СТРУКТУРА */
+
+.btn {
+    color: black;
+    background-color: #00FC17;
+    border: #00FC17;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn:active {
+    background-color: #00860d;
+}
+
+/* РАЗДЕЛЫ */
+.text {
+
+}
+
+.info {
+
+}
+
+.releases {
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 0 300px;
+    border: #00FC17;
+    background-color: #00FC17;
+    color: #000000;
+}
