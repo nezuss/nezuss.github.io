@@ -7,11 +7,8 @@ body {
 
 /* СТРАНИЦА */
 .page {
-    overflow: hidden;
-    overflow-y: scroll;
-    background-color: #242223;
+    background-color: #262626;
     width: 940px;
-    height: 970px;
     padding: 10px;
     margin: auto;
 }
@@ -29,7 +26,7 @@ body {
     background-color: white;
     color: #000000;
 }
- 
+
 /* СТРУКТУРА */
 .btn {
     color: black;
